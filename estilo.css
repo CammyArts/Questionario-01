@@ -1,0 +1,25 @@
+/* =================== FONTE ================== */
+h1{
+    font-style: italic;
+}
+
+/* =================== EFEITO ================== */
+main {
+    margin: 0;
+    padding: 5px;
+    background-color: lightgray;
+  }
+  
+  main > h3, p, .browser {
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  .browser {
+    background: white;
+  }
+  
+  .browser > h3, p {
+    margin: 4px;
+    font-size: 90%;
+  }
